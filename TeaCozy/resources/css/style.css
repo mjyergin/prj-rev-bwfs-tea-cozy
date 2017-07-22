@@ -1,0 +1,186 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin-top: 0;
+}
+
+/*header*/
+
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  z-index: 5;
+  margin-top: 0;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  margin-right: 20px;
+  color: seashell;
+}
+
+/*Our Mission Section*/
+
+#mission {
+  background: url("../images/img-mission-background.jpg") no-repeat center;
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 70px;
+}
+
+.mission-image {
+  display: block;
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.banner {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 300px;
+}
+
+.banner h2 {
+  padding-top: 10px;
+  margin: 0 0;
+  padding-bottom: 7px;
+}
+
+.banner h4 {
+  padding-top: 7px;
+  padding-bottom: 10px;
+  margin: 0 0;
+}
+
+/*Store Section - Featured Items*/
+
+.featured-title {
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+#featured {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.image2 {
+  margin-right: 50px;
+}
+
+.teas-row1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.teas-row2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.image-title {
+  margin-top: 0;
+}
+
+/*Locations Section*/
+
+#locations {
+  background: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.location-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.location-title h2 {
+  margin-bottom: 0
+}
+
+.address {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  opacity: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.address:last-of-type {
+  margin-right: 0
+}
+
+/*Footer*/
+
+.footer {
+  margin-top: 0;
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 0;
+}
